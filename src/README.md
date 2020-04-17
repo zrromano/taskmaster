@@ -1,6 +1,8 @@
 # Design Document
 
-## 0.1 Overview
+## Section 0 Introduction
+
+### 0.1 Overview
 
 __Development name:__ Taskmaster
 
@@ -12,10 +14,18 @@ __Purpose:__ Help keep track of users' responsibilities with an easy to use inte
 
 __Target:__ Anyone that wants to improve productivity or reduce the stress of managing daily tasks.
 
-## 0.2 Phases
+### 0.2 Phases
 
-  * Phase one - Develop front end in React
+  * Phase one - Develop front end in React __<--__
   
-  * Phase two - Develop back end in Python (__Django/Flask?__)
+  * Phase two - Develop back end in Python (__Django/Flask?__) and connect to front end
   
-  * Phase three - 
+  **note** This is the minimum for AdvJS project 
+  
+  * Phase three - Deploy website
+  
+  * Phase four - Improve
+  
+## Section 1 Content Structure
+
+### 1.1 Site Map
