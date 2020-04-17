@@ -16,16 +16,19 @@ __Target:__ Anyone that wants to improve productivity or reduce the stress of ma
 
 ### 0.2 Phases
 
-  * Phase one - Develop front end in React __<--__
+  * Phase one - Develop basic front end
   
-  * Phase two - Develop back end in Python (__Django/Flask?__) and connect to front end
+  * Phase two - Develop and connect REST API
+
+  * Phase three - Present in class
   
-  **note** This is the minimum for AdvJS project 
+  * Phase four - Deployment
   
-  * Phase three - Deploy website
-  
-  * Phase four - Improve
+  * Phase five - Implement advanced/extra features and improve UX/UI
   
 ## Section 1 Content Structure
 
 ### 1.1 Site Map
+
+ ![sitemap](https://github.com/zrromano/taskmaster/blob/master/src/images/sitemap.png?raw=true)
+ 
