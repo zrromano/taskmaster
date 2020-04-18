@@ -35,6 +35,8 @@ __Target:__ Anyone that wants to improve productivity or reduce the stress of ma
  ![sitemap](https://github.com/zrromano/taskmaster/blob/master/src/images/map.png?raw=true)
  
 ### 1.2 Content Types
+
+__note__ These data structures represent how data will be accessed on the front end, they may not be completely accurate to how the data will be stored in the database.
  
 #### 1.2.1 Users
 
