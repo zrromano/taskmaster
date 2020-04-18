@@ -1,1 +1,64 @@
-// sample data for developing front end
+{
+  "tasksets": [
+    {
+      "user": "Jeff",
+      "collection": [
+        {
+          "name": "Sunday Chores",
+          "tasks": [
+            {
+              "task": "Do laundry",
+              "due": { "weekly": ["SUN"] },
+              "complete": false
+            },
+            {
+              "task": "Vacuum living room",
+              "due": { "weekly": ["SUN"] },
+              "complete": true
+            }
+          ]
+        },
+        {
+          "name": "Bills",
+          "tasks": [
+            {
+              "task": "Pay car insurance",
+              "due": { "monthly": 14 },
+              "complete": false
+            },
+            {
+              "task": "Pay rent and utilities",
+              "due": { "monthly": 1 },
+              "complete": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "user": "Paul",
+      "collection": [
+        {
+          "name": "Weekly Chores",
+          "tasks": [
+            {
+              "task": "Buy groceries",
+              "due": { "weekly": ["SUN", "THU"] },
+              "complete": false
+            },
+            {
+              "task": "Meal prep",
+              "due": { "weekly": ["MON"] },
+              "complete": true
+            }
+          ]
+        },
+        {
+          "task": "Petsit Jeff's dog",
+          "due": { "once": { "day": 12, "month": 5, "year": 2020 } },
+          "complete": false
+        }
+      ]
+    }
+  ]
+}

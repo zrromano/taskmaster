@@ -13,10 +13,18 @@ import Tasks from "./components/tasks";
 import UserSettings from "./components/userSettings";
 import Calender from "./components/calender";
 import CreateList from "./components/createList";
+import auth from "./services/auth.service";
 
 library.add(fas);
 
 class App extends Component {
+  state = {};
+
+  componentDidMount() {
+    const user = auth.getCurrentUser();
+    this.setState({ user });
+  }
+
   render() {
     const links = [
       { path: "/tasks", text: "Tasks", icon: "book" },
@@ -24,7 +32,7 @@ class App extends Component {
     ];
     return (
       <div className="App">
-        <NavBar className="nav-icon" links={links} user={null} />
+        <NavBar className="nav-icon" links={links} user={this.state.user} />
         <main>
           <Switch>
             <Route path="/" exact component={Home} />

@@ -1,9 +1,12 @@
 import React from "react";
 import { Redirect } from "react-router-dom";
+import auth from "../services/auth.service";
 
 const Logout = () => {
-  //logout user then redirect to home
-  return <Redirect to="/" />;
+  auth.logout();
+  window.location = "/";
+
+  return null;
 };
 
 export default Logout;

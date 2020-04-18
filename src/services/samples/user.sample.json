@@ -1,1 +1,14 @@
-// sample data for developing front end
+{
+  "users": [
+    {
+      "username": "Jeff",
+      "password": "securepassword",
+      "theme": "default"
+    },
+    {
+      "username": "Paul",
+      "password": "securepassword",
+      "theme": "default"
+    }
+  ]
+}
