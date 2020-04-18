@@ -32,7 +32,7 @@ __Target:__ Anyone that wants to improve productivity or reduce the stress of ma
 
 ### 1.1 Site Map
 
- ![sitemap](https://github.com/zrromano/taskmaster/blob/master/src/images/sitemap.png?raw=true)
+ ![sitemap](https://github.com/zrromano/taskmaster/blob/master/src/images/map.png?raw=true)
  
 ### 1.2 Content Types
  
