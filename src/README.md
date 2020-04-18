@@ -80,7 +80,7 @@ A collection of similar tasks
 
 A single task and associated information
 
- * description: string
+ * task: string
  
  * due: **due** object
  
