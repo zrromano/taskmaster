@@ -26,6 +26,8 @@ __Target:__ Anyone that wants to improve productivity or reduce the stress of ma
   
   * Phase five - Implement advanced/extra features and improve UX/UI
   
+ __Current phase:__ one
+  
 ## Section 1 Content Structure
 
 ### 1.1 Site Map
