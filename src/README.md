@@ -112,7 +112,7 @@ An object describing when and how often a task is due. Top level properties desc
 
 ## Section 3 Functionality
 
-### 2.1 Environment Variables
+### 3.1 Environment Variables
 
 Sensitive development information should be stored in a .env file in the root of the project and read into the program through environment variables. React applications need environment variables to start with "REACT_APP_"
 
@@ -127,7 +127,7 @@ In back end:
 // Unknown - will need to look into how Python does this
 ```
 
-### 2.2 Front End
+### 3.2 Front End
 
  * Single Page Application developed using React
 
@@ -139,7 +139,7 @@ In back end:
  
  * Save user authentication token to local storage
 
-### 2.3 Back End
+### 3.3 Back End
 
 **note** Here is a flask tutorial: https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world
 
@@ -157,6 +157,10 @@ In back end:
  
  * (Phase 5) Send reminder emails/notifications to users when a task is overdue.
  
-### 2.3.1 API Routes
+### 3.3.1 API Routes
 
 tbd
+
+### 3.4 User Roles and Capabilities
+
+Added in phase 5
