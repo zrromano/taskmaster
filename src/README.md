@@ -63,7 +63,7 @@ All **Task**s and **Tasklist**s associated with a particular user
 
  * username: string matching associated account username
  
- * collection: array of **Task**s and **Tasklists**s
+ * collection: array of **Task**s and **Tasklist**s
  
 
 #### 1.2.2.1 Tasklist
