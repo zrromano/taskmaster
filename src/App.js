@@ -22,11 +22,11 @@ class App extends Component {
 
   componentDidMount() {
     const user = auth.getCurrentUser();
-    this.setStyle(user);
+    this.setStyles(user);
     this.setState({ user });
   }
 
-  setStyle = (user) => {
+  setStyles = (user) => {
     let root = document.documentElement;
     let themes = {
       default: {
