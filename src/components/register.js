@@ -4,11 +4,12 @@ import Form from "./common/form";
 import Joi from "joi-browser";
 class Register extends Form {
   state = {
-    data: { email: "", password: "" },
+    data: { username: "", email: "", password: "" },
     errors: {},
   };
 
   schema = {
+    username: Joi.string().required().label("Username"),
     email: Joi.string().email().required().label("Email"),
     password: Joi.string().min(6).required().label("Password"),
   };
@@ -20,6 +21,7 @@ class Register extends Form {
       <div>
         <h1>Register</h1>
         <form onSubmit={this.handleSubmit} className="form">
+          {this.renderInput("username", "Username", "text", null, 6)}
           {this.renderInput("email", "Email", "email", null, 6)}
           {this.renderInput("password", "Password", "text", null, 6)}
           {this.renderButton("Create Account")}

@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+.header {
+  border-style: double dashed;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+}
+
+.text {
+  margin-bottom: 8rem;
+}
+
+@media only screen and (min-width: 600px) {
+  .text {
+    width: 50rem;
+  }
+}
