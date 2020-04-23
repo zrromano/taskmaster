@@ -29,7 +29,7 @@ export function logout() {
 }
 
 export function getCurrentUser() {
-  return localStorage.getItem(tokenKey);
+  return JSON.parse(localStorage.getItem(tokenKey));
 }
 
 export function getJwt() {

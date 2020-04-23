@@ -25,24 +25,27 @@
   height: 2rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-  color: black;
-  background-color: lightgray;
+  color: var(--text-primary);
+  font-size: 1rem;
+  background-color: var(--color-secondary);
   cursor: pointer;
   border-radius: 0.4rem;
   border: none;
   outline: none;
-  box-shadow: 0 0.3rem gray;
+  box-shadow: 0 0.3rem var(--color-accent);
 }
 .button:active {
-  background-color: darkgray;
-  box-shadow: 0 0.1rem gray;
+  background-color: var(--color-secondary);
+  box-shadow: 0 0.1rem var(--color-accent);
   transform: translateY(0.2rem);
 }
 .button:disabled {
-  background-color: darkgray;
+  box-shadow: 0 0.2rem var(--color-accent);
+  transform: translateY(0.2rem);
+  filter: grayscale(50%);
 }
 .smalltext {
-  color: gray;
+  color: var(--color-secondary);
   font-size: 12px;
 }
 .errortext {
@@ -52,6 +55,7 @@
 .form-link {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  text-decoration: none;
   color: blue;
 }
 .col-2 {

@@ -12,6 +12,7 @@ h1 {
 .header {
   border-style: double dashed;
   border-radius: 0.5rem;
+  border-color: var(--color-accent);
   padding: 1rem;
   text-align: center;
 }
