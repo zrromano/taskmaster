@@ -64,7 +64,11 @@ class App extends Component {
         <main>
           <Switch>
             <Route path="/" exact component={Home} />
-            <Route path="/tasks" exact component={TaskSet} />
+            <Route
+              path="/tasks"
+              exact
+              component={() => <TaskSet user={this.state.user} />}
+            />
             <Route path="/tasks/:listname" component={TaskList} />
             <Route path="/settings" component={UserSettings} />
             <Route path="/calender" component={Calender} />
