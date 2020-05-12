@@ -30,27 +30,31 @@ const Calender = () => {
   ];
 
   return (
-    <div class="calendar" id="calendar">
-      <div class="calendar-btn month-btn">
-         <Select options= {months}/>
+    <div className="calendar" id="calendar">
+
+      <div class="calendar-btn month-dropdown">
+        <td> <p>Month: </p> </td>
+        <td> <Select options= {months}/> </td>
       </div>
 
-      <div class="clear"></div>
+      <div className="clear"></div>
 
-      <div class="calendar-dates">
-          <div class="days">
-              <div class="day label">SUN</div>
-              <div class="day label">MON</div>
-              <div class="day label">TUE</div>
-              <div class="day label">WED</div>
-              <div class="day label">THUR</div>
-              <div class="day label">FRI</div>
-              <div class="day label">SAT</div>
+      <div className="calendar-dates">
+        <table>
+          <div className="days">
+              <div className="day label">SUN</div>
+              <div className="day label">MON</div>
+              <div className="day label">TUE</div>
+              <div className="day label">WED</div>
+              <div className="day label">THUR</div>
+              <div className="day label">FRI</div>
+              <div className="day label">SAT</div>
 
-              <div class="clear"></div>
+              <div className="clear"></div>
           </div>
+        </table>
 
-          <div id="calendarDays" class="days">
+          <div id="calendarDays" className="days">
           </div>
       </div>
     </div>
