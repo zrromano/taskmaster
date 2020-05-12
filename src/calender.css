@@ -1,0 +1,10 @@
+:root {
+    font-size: 16px;
+    font-family: "Lucida Console", Monaco, monospace;
+    --text-primary: black;
+    --text-secondary: darkgray;
+    --color-primary: white;
+    --color-secondary: indianred;
+    --color-accent: firebrick;
+}
+
