@@ -1,4 +1,5 @@
 import React from "react";
+import "../calender.css"
 
 const Calender = () => {
   
@@ -35,7 +36,7 @@ const Calender = () => {
       </div>
 
       <div class="calendar-btn year-btn" onclick="$('#years').toggle('fast')">
-          <span id="curYear"></span>
+          <span id="curYear">testClnBtn</span>
           <div id="years" class="years dropdown"></div>
       </div>
 
