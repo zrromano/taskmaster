@@ -32,11 +32,14 @@ const Calender = () => {
   return (
     <div className="calendar" id="calendar">
 
-      <div class="calendar-btn month-dropdown">
-        <td> <p>Month: </p> </td>
-        <td> <Select options= {months}/> </td>
-      </div>
+        <div className="dropdowns">
+          <div class="calendar-btn month-dropdown">
+            <td> <p>Month: </p> </td>
+            <td> <Select options= {months}/> </td>
+          </div>
+        </div>
 
+      
       <div className="clear"></div>
 
       <div className="calendar-dates">
